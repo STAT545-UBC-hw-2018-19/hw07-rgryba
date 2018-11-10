@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1541793720935.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2851461916",
+    "id" : "8A36B11",
+    "lastKnownWriteTime" : 1541697288,
+    "last_content_update" : 1541697288,
+    "path" : "~/github/Hw07-rgryba/R/pow.R",
+    "project_path" : "R/pow.R",
+    "properties" : {
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
