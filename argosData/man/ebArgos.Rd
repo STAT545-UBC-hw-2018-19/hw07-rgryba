@@ -3,15 +3,23 @@
 \docType{data}
 \name{ebArgos}
 \alias{ebArgos}
-\title{Argos data for bearded seals tagged in Alaskan waters}
-\format{Character, integer, factor}
+\title{Argos satellite location data for bearded seals tagged in Alaskan waters}
+\format{A data frame with 1557 rows and 5 variables.
+\describe{
+    \item{id}{identity number for each seal tagged}
+    \item{time}{date and time of the locaiton, in UTM}
+    \item{lc}{Argos location quality, 3, 2, 1, 0, A, B, Z}
+    \item{lon}{longitude of the seal location}
+    \item{lat}{latitude of the seal location}
+    }}
 \source{
-Project conducted as a part of the BOEM project MARES.
+\url{}
 }
 \usage{
 ebArgos
 }
 \description{
-??????
+A dataset containing the locaitons of bearded seals via Argos satellite and the
+locaiton quaility.
 }
 \keyword{datasets}
