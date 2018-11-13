@@ -7,7 +7,7 @@
 \title{argosData: Data Package for Bearded Seal (Erignathus barbatus) Satellite Data}
 \description{
 This is a data package that contains made up satellite data for bearded 
-    seals captured and tagged in Alaskan waters. The data includes the seal id, 
+    seals captured and tagged in Alaskan waters - ebArgos. The data includes the seal id, 
     locations (latitude and longitude), date and time of locations, and Argos 
     location quality.
 }

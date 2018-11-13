@@ -1,6 +1,9 @@
 # argosData
 
-The goal of argosData is to ...
+The goal of argosData is to provide a data package for the bearded seals tagged with 
+Argos satellite tags in Alaskan waters.
+
+Note: These data are not real data and have fake latitude and longitude.
 
 ## Installation
 
@@ -12,9 +15,14 @@ install.packages("argosData")
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+Please see the vignette for additional information but here is an example.
+To determine if any of the location qualities are 'Z' (an invalid location):
 
 ``` r
-## basic example code
+argosData::ebArgos %>%
+filter(lc == "Z")
 ```
 
+## For developers/users
+
+Please see https://www.boem.gov/BOEM-2017-017/ for data collection methods.
