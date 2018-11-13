@@ -1,5 +1,6 @@
 # HW-07 for R. Gryba
-###2018-11-11
+2018-11-12
+For this assignment I chose to make a data package.
 
 # argosData package
 
@@ -15,6 +16,7 @@ You can install argosData from github with:
 ```{r gh-installation, eval = FALSE}
 # install.packages("devtools")
 devtools::install_github("STAT545-UBC-students/hw07-rgryba/argosData")
+library(argosData)
 ```
 
 ## Example
