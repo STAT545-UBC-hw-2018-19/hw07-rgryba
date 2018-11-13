@@ -1,4 +1,7 @@
-# argosData
+# HW-07 for R. Gryba
+###2018-11-11
+
+# argosData package
 
 The goal of argosData is to provide a data package for the bearded seals tagged with 
 Argos satellite tags in Alaskan waters.
@@ -7,10 +10,11 @@ Note: These data are not real data and have fake latitude and longitude.
 
 ## Installation
 
-You can install the released version of argosData from [CRAN](https://CRAN.R-project.org) with:
+You can install argosData from github with:
 
-``` r
-install.packages("argosData")
+```{r gh-installation, eval = FALSE}
+# install.packages("devtools")
+devtools::install_github("STAT545-UBC-students/hw07-rgryba/argosData")
 ```
 
 ## Example
