@@ -1,6 +1,18 @@
 # HW-07 for R. Gryba
 2018-11-12
+
 For this assignment I chose to make a data package.
+
+The instructions for installation of the package are provided below via a link to the github.
+
+The code is available in the following links:
+
+File|Link
+---|---
+Package folder|[argosData](argosData)
+R code|[R folder](argosData/R)
+Vignette code|[vignette folder](argosData/vignettes)
+
 
 # argosData package
 
