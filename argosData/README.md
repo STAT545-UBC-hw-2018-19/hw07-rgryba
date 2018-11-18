@@ -27,7 +27,7 @@ data(package='argosData')
 For details on the data use:
 
 ```{r}
-?ebData
+?ebArgos
 ```
 
 ## Example

@@ -126,7 +126,7 @@ $(document).ready(function () {
 
 <div id="hw-07-for-r.-gryba" class="section level1">
 <h1>HW-07 for R. Gryba</h1>
-<p>2018-11-12</p>
+<p>2018-11-18</p>
 <p>For this assignment I chose to make a data package.</p>
 <p>The instructions for installation of the package are provided below via a link to the github.</p>
 <p>The code is available in the following links:</p>
@@ -160,7 +160,17 @@ $(document).ready(function () {
 <div id="installation" class="section level2">
 <h2>Installation</h2>
 <p>You can install argosData from github with:</p>
-<p><code>{r gh-installation, eval = FALSE} # install.packages(&quot;devtools&quot;) devtools::install_github(&quot;STAT545-UBC-students/hw07-rgryba/argosData&quot;) library(argosData)</code></p>
+<pre class="{r}"><code># install.packages(&quot;devtools&quot;)
+library(devtools)
+devtools::install_github(&quot;STAT545-UBC-students/hw07-rgryba/argosData&quot;)
+library(argosData)</code></pre>
+</div>
+<div id="data" class="section level2">
+<h2>Data</h2>
+<p>To see the data available in the package use:</p>
+<pre class="{r}"><code>data(package='argosData')</code></pre>
+<p>For details on the data use:</p>
+<pre class="{r}"><code>?ebArgos</code></pre>
 </div>
 <div id="example" class="section level2">
 <h2>Example</h2>
