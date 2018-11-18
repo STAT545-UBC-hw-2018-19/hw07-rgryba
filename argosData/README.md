@@ -9,7 +9,7 @@ Note: These data are not real data and have fake latitude and longitude.
 
 You can install argosData from github with:
 
-```{r gh-installation, eval = FALSE}
+```{r}
 # install.packages("devtools")
 library(devtools)
 devtools::install_github("STAT545-UBC-students/hw07-rgryba/argosData")
