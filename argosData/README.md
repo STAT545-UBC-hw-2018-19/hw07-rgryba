@@ -7,10 +7,27 @@ Note: These data are not real data and have fake latitude and longitude.
 
 ## Installation
 
-You can install the released version of argosData from [CRAN](https://CRAN.R-project.org) with:
+You can install argosData from github with:
 
-``` r
-install.packages("argosData")
+```{r gh-installation, eval = FALSE}
+# install.packages("devtools")
+library(devtools)
+devtools::install_github("STAT545-UBC-students/hw07-rgryba/argosData")
+library(argosData)
+```
+
+##Data
+
+To see the data available in the package use:
+
+```{r}
+data(package='argosData')
+```
+
+For details on the data use:
+
+```{r}
+?ebData
 ```
 
 ## Example

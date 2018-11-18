@@ -8,6 +8,10 @@ Description: This is a data package that contains made up satellite data for bea
     seals captured and tagged in Alaskan waters - ebArgos. The data includes the seal id, 
     locations (latitude and longitude), date and time of locations, and Argos 
     location quality. 
+    
+    To find the data in the package use:
+    data(package='argosData')
+    
 Depends: R (>= 2.10)
 License: License: MIT + file LICENSE
 Encoding: UTF-8
