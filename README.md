@@ -32,7 +32,7 @@ devtools::install_github("STAT545-UBC-students/hw07-rgryba/argosData")
 library(argosData)
 ```
 
-##Data
+## Data
 
 To see the data available in the package use:
 
